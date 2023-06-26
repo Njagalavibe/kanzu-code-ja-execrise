@@ -1,2 +1,2 @@
 # kanzu code javaScript execrise
-JavaScript Execrises
+JavaScript beginner execrises
