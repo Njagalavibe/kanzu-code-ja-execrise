@@ -6,46 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
-
 <body>
-    <script>
-        /*Number 1*/
-        function fizzBuzz(str1, str2) {
-            if ((typeof str1) && typeof str2 === "string") {
-                let totalStr = str1.length + str2.length
-                if (totalStr%3==0 && totalStr%5==0){
-                   return "FizzBuzz" ;
-                } else if (totalStr%3==0){
-                    return "Fizz"
-                }else{
-                    return "Buzz"
-                }
-            } else {
-                return "Please use strings";
-            }
-            
-        }
-        str1 = String(prompt("Please enter aa string 1 of your choice: "))
-        str2 = String(prompt("Please enter aa string 2 of your choice: "))
-        console.log(fizzBuzz(str1, str2))
-
-        /*Number 2*/
-        function checkAge(year0fBirth){
-            const date = new Date();
-            age = date - yearOfBirth;
-            if (age < 18){
-                return "You are a minor "
-            }else if (age > 18 && age < 36) {
-                return "You are a youth"
-            }else{
-                return "You are an elder"
-            }
-        }
-        year0fBirth = Number(prompt("Please enter your year of birth: "))
-        console.log(checkAge(yearOfBirth))
-
-    </script>
+    <script src="kanzu.js"></script>
 </body>
 
 </html>
